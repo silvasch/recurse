@@ -12,9 +12,10 @@ cargo add --git https://github.com/silvasch/recurse
 
 ```rust
 for file in recurse::Recurse::new(".") {
-let file = file.unwrap();
-println!("{}", file.display());
+    let file = file.unwrap();
+    println!("{}", file.display());
 }
 ```
 
-Take a look at `examples/list_repo.rs` for a more complex example.
+Take a look at the [examples directory](https://github.com/silvasch/recurse/tree/main/examples)
+for a more complex example.

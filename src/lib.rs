@@ -9,7 +9,8 @@
 //! }
 //! ```
 //!
-//! Look at [Recurse] for more information and the examples directory for a more complex usage.
+//! Look at [Recurse] for more information and the [examples directory](https://github.com/silvasch/recurse/tree/main/examples)
+//! for a more complex example.
 
 mod error;
 pub use error::Error;

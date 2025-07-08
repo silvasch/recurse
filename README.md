@@ -1,6 +1,6 @@
 # recurse
 
-Recursively iterate through a directory.
+Recursively iterate through the files in a directory.
 
 ## Installation
 

@@ -1,4 +1,4 @@
-//! Recursively loop through the files in a directory.
+//! Recursively iterate through the files in a directory.
 //!
 //! # Examples
 //!

@@ -3,11 +3,13 @@ fn main() {
     for file in recurse::Recurse::new(".") {
         match file {
             Ok(file) => {
+                // the 0th component is `.`
                 let root = match file.components().nth(1) {
                     Some(root) => root.as_os_str().to_str().unwrap(),
                     None => continue,
                 };
 
+                // filter out the `target` and `.git` directories
                 if ["target", ".git"].contains(&root) {
                     continue;
                 }
